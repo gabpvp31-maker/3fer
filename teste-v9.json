@@ -1,0 +1,10 @@
+{
+  "bytes": 22668349,
+  "sha256": "cbb35c3711ef6d63b356b4718c201c2b04965fd344c336c11828eda9616042a5",
+  "verifiedOfflineHtmlSha256": "ce02e710c87de35f6cd47eb2b8c4ed2c0601c673a554480925764744166b2bf9",
+  "nativeSourceSha256": "fef82eca0a8fea2dacb4823270a177e7568a6d355cefaaa93c985158773cfcb5",
+  "browserVerified": true,
+  "externalRequests": [],
+  "filename": "red-rocket-teste-v9.zip",
+  "description": "Offline test V9 with expanded surroundings and latest material revision. Native source and HTML match the verified browser build."
+}
