@@ -1,0 +1,120 @@
+{
+  "schema": "red-rocket.runtime.v1",
+  "model": "assets/map.glb",
+  "materials": {
+    "surface0": {
+      "color": {
+        "high": "assets/surface0-1024.jpg",
+        "low": "assets/surface0-512.jpg"
+      },
+      "roughness": "assets/surface0-roughness.jpg",
+      "height": "assets/surface0-height.png"
+    },
+    "surface1": {
+      "color": {
+        "high": "assets/surface1-1024.jpg",
+        "low": "assets/surface1-512.jpg"
+      },
+      "roughness": "assets/surface1-roughness.jpg",
+      "height": "assets/surface1-height.png"
+    },
+    "surface2": {
+      "color": {
+        "high": "assets/surface2-1024.jpg",
+        "low": "assets/surface2-512.jpg"
+      },
+      "roughness": "assets/surface2-roughness.jpg",
+      "height": "assets/surface2-height.png"
+    },
+    "surface3": {
+      "color": {
+        "high": "assets/surface3-1024.jpg",
+        "low": "assets/surface3-512.jpg"
+      },
+      "roughness": "assets/surface3-roughness.jpg",
+      "height": "assets/surface3-height.png"
+    },
+    "surface4": {
+      "color": {
+        "high": "assets/surface4-1024.jpg",
+        "low": "assets/surface4-512.jpg"
+      },
+      "roughness": "assets/surface4-roughness.jpg",
+      "height": "assets/surface4-height.jpg"
+    },
+    "surface5": {
+      "color": {
+        "high": "assets/surface5-1024.jpg",
+        "low": "assets/surface5-512.jpg"
+      },
+      "roughness": "assets/surface5-roughness.jpg",
+      "height": "assets/surface5-height.jpg"
+    },
+    "surface7": {
+      "color": {
+        "high": "assets/surface7-1024.jpg",
+        "low": "assets/surface7-512.jpg"
+      },
+      "roughness": "assets/surface7-roughness.jpg",
+      "height": "assets/surface7-height.png"
+    }
+  },
+  "spawn": {
+    "position": [
+      -10,
+      1.7,
+      24
+    ],
+    "target": [
+      -0.6,
+      3.5,
+      -3
+    ]
+  },
+  "lighting": {
+    "method": "Photographic PBR tiles, vertex occlusion and fixed hemisphere/sun; zero dynamic shadow passes",
+    "dynamicShadowPasses": 0
+  },
+  "statistics": {
+    "sourceTriangles": 301370,
+    "runtimeTriangles": 102585,
+    "trianglesBeforeDegenerateRemoval": 103397,
+    "sourceObjects": 3967,
+    "runtimeBatches": 26,
+    "maxBoundsDeltaMeters": 0.03750038146972656,
+    "authoringSourceSha256": "3244f147e042959baacedb94d43b4a958dec69d929c707baf3e2d60d818cc163",
+    "lowBytes": 7844281
+  },
+  "hashes": {
+    "assets/map.glb": "dfd24c9407400c710f6122c7f6b15f8254012ffa2b7035524df67899c74ab90a",
+    "assets/prop-colliders.json": "3f095d5b853a45b70ed4ee770bce443e5f66f62a88cc19089ba5e57c6388f6cb",
+    "assets/surface0-1024.jpg": "8dac4446341b6dd2ef8eb037c34f20c589d95c18ca002e2043c169e0133c3f47",
+    "assets/surface0-512.jpg": "63dd3048acd8ab0a2a72f866d4034844cfaff0e7071ba805ad43a58b85fcfa45",
+    "assets/surface0-height.png": "d9ec8321ddd1ef011f87e078142a014b1487c5e3bf747b1d70309af31fef7574",
+    "assets/surface0-roughness.jpg": "02c2fe5dfd5f4f7a692659261b8c99e103f33fb1a4c363c3e763542fae32d4fe",
+    "assets/surface1-1024.jpg": "3514cd2390cd3952a076f1c7ade6b6f6371f38a9d07484b7b0c40ab44db213cd",
+    "assets/surface1-512.jpg": "12ee3e0c67fe06ef7542b72c173dd51c0c5dd9d50fe3b22e2d125fbccd989714",
+    "assets/surface1-height.png": "d9ec8321ddd1ef011f87e078142a014b1487c5e3bf747b1d70309af31fef7574",
+    "assets/surface1-roughness.jpg": "02c2fe5dfd5f4f7a692659261b8c99e103f33fb1a4c363c3e763542fae32d4fe",
+    "assets/surface2-1024.jpg": "27a565b98322e58b6e08b129fecfb58411517526e75fb88cc5ab3dca836e2352",
+    "assets/surface2-512.jpg": "1bb2cc4fed87ecaffa0739624b4d6fb83491feb2db5282a8ddd73654fd8f4581",
+    "assets/surface2-height.png": "d9ec8321ddd1ef011f87e078142a014b1487c5e3bf747b1d70309af31fef7574",
+    "assets/surface2-roughness.jpg": "02c2fe5dfd5f4f7a692659261b8c99e103f33fb1a4c363c3e763542fae32d4fe",
+    "assets/surface3-1024.jpg": "f498e252638d721446c8733725067c48261a2f4b219dc96defaf1d05d081dcb5",
+    "assets/surface3-512.jpg": "860046769d3368f922b478d118949df8d69cceb9bfdcd0441a1f0b0cfc2d2d91",
+    "assets/surface3-height.png": "d9ec8321ddd1ef011f87e078142a014b1487c5e3bf747b1d70309af31fef7574",
+    "assets/surface3-roughness.jpg": "02c2fe5dfd5f4f7a692659261b8c99e103f33fb1a4c363c3e763542fae32d4fe",
+    "assets/surface4-1024.jpg": "4f0a45063e8cac173891e8b05ded63bdcba95b6b0d3bfc83be7347fab37ad836",
+    "assets/surface4-512.jpg": "6bd25f49de64f7ddc14e65202d224f51fd1ae823459a67fa76523a537b5a4cad",
+    "assets/surface4-height.jpg": "1e40e9be60d6c3fb4a41859d0dd08f42bf8ac05677b15a74e154042684b5cb10",
+    "assets/surface4-roughness.jpg": "e9fa8b793aa4a088dcbd55985de2820ff2210865f4c01af928edb00827e7b696",
+    "assets/surface5-1024.jpg": "2f836bbdde6224df9b700742fd2e4b71008f693d7a990c5aa4b480f64a805fdd",
+    "assets/surface5-512.jpg": "94d15cedc1e2cdda2a29672105b5f0456aabb676c64caa0d40e05b4ea8ad4aa0",
+    "assets/surface5-height.jpg": "136226ea667221e6a62ce23853148ecda4309222c1dea253fa6245709ded9a8a",
+    "assets/surface5-roughness.jpg": "a4a9e39857a19afd23a778e5abf44fcdf6bd7f93918f1cf6878b41933e553511",
+    "assets/surface7-1024.jpg": "2a2ffcb7ab94915fbd2caa51c3ed0d4809d42e0c7919d3e552aa29dcafe430f9",
+    "assets/surface7-512.jpg": "d370a9f879ccb0454c5b0235b6f80718eb504e1c8e4540dbea9671466a785d41",
+    "assets/surface7-height.png": "67138261342f563de924a0c2337300de283bff469d321d21e6fcbeae1bd8cb07",
+    "assets/surface7-roughness.jpg": "70ba3edc65525eb4dc366cf010ca7ae0bd34e0251ff0225c2dad627a873d0712"
+  }
+}

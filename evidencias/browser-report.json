@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "device": "Chromium / SwiftShader software rendering; hardware GPU not measured",
+  "checks": {
+    "httpLoadSeconds": 0.9256163969985209,
+    "initialCamera": [
+      -10,
+      1.7,
+      24
+    ],
+    "modelMeshes": 26,
+    "movement": true,
+    "pausedRenderingStops": true,
+    "qualityModes": true,
+    "failedQualityRollback": true,
+    "failedInitialLoadAndRetry": true,
+    "offlineLoadSeconds": 8.832559264999873,
+    "offlineMethod": "Sandboxed opaque-origin iframe. Direct file navigation is blocked by managed Chromium policy.",
+    "offlineMovement": true,
+    "offlineExternalRequests": []
+  },
+  "profiles": [
+    {
+      "quality": "low",
+      "fps": 19.497596807828725,
+      "drawCalls": 27,
+      "triangles": 103305,
+      "textures": 8,
+      "resolution": [
+        640,
+        400
+      ]
+    },
+    {
+      "quality": "balanced",
+      "fps": 3.868771278243145,
+      "drawCalls": 27,
+      "triangles": 103305,
+      "textures": 8,
+      "resolution": [
+        1280,
+        800
+      ]
+    },
+    {
+      "quality": "high",
+      "fps": 2.735136243976244,
+      "drawCalls": 27,
+      "triangles": 103305,
+      "textures": 22,
+      "resolution": [
+        1280,
+        800
+      ]
+    }
+  ],
+  "pageErrors": [],
+  "externalRequests": [],
+  "artifactHashes": {
+    "red-rocket/src/app.mjs": "950a8fca279e8c2db7de9c2a191b37506bffa8895f4a34f943f5d82e61189186",
+    "red-rocket/src/physics.mjs": "78ec8ff39bb0631d9923d3aa9d263978fdc6a5397b5b495fc658b60c3cb085c9",
+    "red-rocket/portable/index.html": "3371952a7cc003d5f40b388a7d5ea9d6b23cb7e920e468ee2966affaf928db84",
+    "red-rocket/assets/runtime-manifest.json": "287a3dd104276013954e7123de0ce441ac9636c1b7a6ecacdd29642369a28227",
+    "red-rocket/assets/map.glb": "dfd24c9407400c710f6122c7f6b15f8254012ffa2b7035524df67899c74ab90a",
+    "design/red-rocket/layout-study.blend": "3244f147e042959baacedb94d43b4a958dec69d929c707baf3e2d60d818cc163"
+  }
+}
